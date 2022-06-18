@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<developer.com.mr.olx.matisse.internal.ui.widget.SquareFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?item.placeholder"
+    android:foreground="?selectableItemBackground">
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:layout_gravity="center"
+        android:drawablePadding="@dimen/_5sdp"
+        android:drawableTop="@drawable/ic_photo_camera_white_24dp"
+        android:gravity="center"
+        android:text="@string/photo_grid_capture"
+        android:textColor="@color/txt_clr"
+        android:textSize="14sp"/>
+
+</developer.com.mr.olx.matisse.internal.ui.widget.SquareFrameLayout>

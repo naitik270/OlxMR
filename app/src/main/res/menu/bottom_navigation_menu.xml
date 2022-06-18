@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/im_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/im_categories"
+        android:icon="@drawable/ic_categories"
+        android:title="Categories" />
+
+    <item
+        android:id="@+id/im_post_ad"
+        android:icon="@drawable/ic_sell"
+        android:title="Sell" />
+
+    <item
+        android:id="@+id/im_fav"
+        android:icon="@drawable/ic_fav_icon"
+        android:title="Favourite" />
+
+    <item
+        android:id="@+id/im_my_ads"
+        android:icon="@drawable/ic_my_ads"
+        android:title="My Ads" />
+
+</menu>

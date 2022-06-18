@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="--pass--" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+    <option name="LOGCAT_FORMAT_STRING" value="%4$c/%5$s: %6$s" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8b19a24-16d0-47eb-98b7-6e6a772fd8ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OlxKeyStore.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/release/MrOLX.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/release/output-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/AllInOneResponseClasses/AllInOneResponseClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/AllInOneResponseClasses/AppliedFiltersClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/AllInOneResponseClasses/AppliedSortingClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/AllInOneResponseClasses/MetadataClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/AllInOneResponseClasses/ModifiedFiltersClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiCallInterfaces/AllInOneApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiCallInterfaces/CarApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceAddProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceAllFormSaveFormData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceBikeScooter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceCarSell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceCategories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceCommercialVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceFillProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceLoginWithPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceMobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceMultiPartProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceNearLocationMast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceProductList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceShowAllAdsData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceSingUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceUserMaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ApiInterface/InterfaceUserPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/AppliedFiltersCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/AppliedSortingCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/BigCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/ChildrenCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/CurrencyCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/DataCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/FavoritesCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/FiltersCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/FlagsCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/FullCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/ImagesCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/JsonMemberPackageCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/LocationsCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/LocationsResolvedCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/MediumCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/MetadataCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/ModifiedFiltersCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/ParametersCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/PriceCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/ResponseCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/SmallCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/SpellCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/StatusCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/ValueCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/CarResponseClasses/ValuesCarClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/Interfaces/ItemClickListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ModelClasses/BikeScooterFormAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ModelClasses/BrowseCategoriesModelClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ModelClasses/ClsSettingNameVal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ModelClasses/MultipartAllFormAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ModelClasses/MultipartCarRentFormAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ModelClasses/MultipartCarSellFormAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ModelClasses/MultipartCommVehicleFormAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ModelClasses/MultipartJobFormAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ModelClasses/MultipartMobileFormAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ModelClasses/MultipartOfficeFormAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ModelClasses/MultipartPropertyRentFormAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ModelClasses/MultipartPropertySellFormAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ModelClasses/SliderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/ModelClasses/clsPhoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/Networks/Network.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/UserTest/Datum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/UserTest/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/UserTest/Support.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/abstractClasses/AddProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/AllProductForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/BikeScooterFormActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/BrowseCategoryDisplayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/BuyPackageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/CarRentFormActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/CarSellFormActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/CategoriesForPackageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/ChangePassActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/ChoosePackageOptionActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/CommercialVehicleFormActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/CongratulationsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/EditProfileActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/FilterActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/GetLocationActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/HelpSupportActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/ItemDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/JobFormActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/LoginWithPhoneActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/MobileFormActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/NotificationSettingsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/OfficeSellRentFormActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/OtpVerificationActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/PackageDetailsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/ProfileActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/PropertyRentFormActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/PropertySellFormActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/RealEstateListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/SaleCategoriesGridActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/SelectLanguageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/SetProfileDataActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/SettingsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/ShowAllAdDListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/SplashActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/SubCategoriesActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/UserPagingActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/VehicleFormActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/ViewCartActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/adapter/AllInOneViewAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/adapter/CarViewAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/adapter/CategoriesBuyPackageAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/adapter/CourseGVAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/adapter/HeaderCategoriesAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/adapter/ImageViewPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/adapter/NearLocationListPaginationAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/adapter/SaleCategoriesAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/adapter/SettingAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/adapter/ShowAllAdsPaginationAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/adapter/ShowCategoryDataAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/adapter/SliderAdapterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/adapter/SubCategoriesAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/adapter/TabViewPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/adapter/UriAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/adapter/UserRVAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/BigClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/ChildrenClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/CurrencyClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/DataClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/FavoritesClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/FiltersClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/FlagsClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/FullClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/ImagesClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/JsonMemberPackageClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/LocationsClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/LocationsResolvedClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/MediumClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/ParametersClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/PriceClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/SmallClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/SpellClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/StatusClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/ValueClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/classes/ValuesClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clicklistener/AllInOneClickListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clicklistener/CarClickListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clicklistener/CatBuyPackageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clicklistener/HeaderCategoryClickListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clicklistener/OnClickListenerSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clicklistener/SaleCategoryClickListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clicklistener/SubCatClickListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsAddCarRent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsAddCarSell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsAddMobileDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsBikeScooter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsCategoriesResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsCommercialVehicleParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsFillProductPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsFillProductPostParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsLoginVerifiedOTPParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsLoginWithPhoneParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsLoginWithPhoneResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsNearLocationMastResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsNearLocationMasterList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsNearLocationParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsOffice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsRegistrationParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsRentProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsSellProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsShowCategoryDataParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsShowCategoryDataResponseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsSubCategories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsSubCategoriesParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsUserMasterFillParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/ClsUserMasterFillResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/Results.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/clsAddProductParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/clsAllCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/clsApiClasses/clsAllCategoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/CropActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/ProgressDialogFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/Request/CropImageView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/Request/CropRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/Request/LoadRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/Request/SaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/ResultActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/animation/SimpleValueAnimator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/animation/SimpleValueAnimatorListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/animation/ValueAnimatorV14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/animation/ValueAnimatorV8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/callback/Callback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/callback/CropCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/callback/LoadCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/callback/SaveCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/util/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/cropClass/util/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/fragments/ActivePkgFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/fragments/ExpiredPkgFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/fragments/HomeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/fragments/ImageFragment1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/fragments/ImageFragment2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/fragments/MainFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/fragments/MainFragmentActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/global/AnimationAutoTextScroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/global/ClsGlobal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/global/ClsPreferencesInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/global/ConnectionDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/global/GetFilePathFromDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/global/ImageBase64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/global/LocationLiveData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/global/LocationWithAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/global/MyLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/global/VerticalViewPager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/global/clsCompressImageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/globalApi/AddProductViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/globalApi/ApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/globalApi/ApiClientUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/globalApi/AppExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/globalApi/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/globalApi/MyInterceptorGET.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/globalApi/NearLocationListViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/globalApi/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/globalApi/SaleViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/Matisse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/MimeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/SelectionCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/engine/ImageEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/engine/impl/GlideEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/engine/impl/PicassoEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/filter/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/entity/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/entity/CaptureStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/entity/IncapableCause.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/entity/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/entity/SelectionSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/loader/AlbumLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/loader/AlbumMediaLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/model/AlbumCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/model/AlbumMediaCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/model/SelectedItemCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/AlbumPreviewActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/BasePreviewActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/MatisseActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/MediaSelectionFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/PreviewItemFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/SelectedPreviewActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/adapter/AlbumMediaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/adapter/AlbumsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/adapter/PreviewPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/adapter/RecyclerViewCursorAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/widget/AlbumsSpinner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/widget/CheckRadioView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/widget/CheckView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/widget/IncapableDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/widget/MediaGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/widget/MediaGridInset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/widget/PreviewViewPager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/widget/RoundedRectangleImageView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/widget/SquareFrameLayout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/utils/ExifInterfaceCompat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/utils/MediaStoreCompat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/utils/PathUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/utils/PhotoMetadataUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/utils/Platform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/utils/SingleMediaScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/internal/utils/UIUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/listener/OnCheckedListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/listener/OnFragmentInteractionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/matisse/listener/OnSelectedListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/productsList/ApiPostViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/productsList/ClsInventoryMasterFormData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/productsList/ProductListViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/productsList/UserModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/productsList/clsCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/productsList/clsInventoryMaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/productsList/clsProductGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/productsList/clsUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/userMaster/ClsUserMaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/userMaster/UserProfileViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/utils/PaginationScrollListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/viewholders/AllInOneViewHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/viewholders/AllSaleCategoriesViewHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/viewholders/CarsViewHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/widgets/ResizeImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/widgets/SpacingItemDecoration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/widgets/SquareImageView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/widgets/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/bottom_animation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/left_right_anim.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/top_animation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_google_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_in_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_or_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_search_location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_user_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/img_congratulation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_google_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_in_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_or_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_search_location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_user_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/img_congratulation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_google_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_in_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_or_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_search_location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_user_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/img_congratulation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_google_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_in_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_or_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_search_location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_user_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/img_congratulation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_google_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_in_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_or_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_search_location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_user_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/img_congratulation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_circle_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_overlay.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bottom_nav_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cust_edt_text.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cust_edt_text_clr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cust_edt_text_dark.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cust_edt_text_dark_num.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cust_my_ads_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cust_my_ads_header.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cust_order_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cust_pkg_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cust_post_btn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cust_post_white_btn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/down_shadow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/edittext_shadow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_active_pckg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_add_pictures.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_all_categories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_drop_down_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_back_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_back_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_banner_one.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_banner_three.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_banner_two.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_remove.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_bathroom_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_bed_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_bikes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_billing_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_books.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_byu_packge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_cabin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_camera_black.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_cancel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_cars.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_categories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_check_white_18dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_commercial_vehicle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_conti_phn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_crop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_dark_rectangle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_delete.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_done_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_down_arrow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_download_invoice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_edit_location.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_edit_profile_btn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_electronics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_email_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_empty_dracula.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_empty_zhihu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_error_outline.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_facebook_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_fashion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_fav_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_fav_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_favorite_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_filter_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_flip.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_furnished.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_furniture.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_gif.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_google_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_google_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_heart_selected.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_heart_unselect.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_help_support.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_invite_friend.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_invoice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_jobs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_kitchen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_km.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_language.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_location.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_location_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_location_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_location_on.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_logout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_demo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_mic.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_mobiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_msg_option_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_my_ads.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_my_fav_ads_fill.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_my_location.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_notification_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_notification_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_or_conti_with.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_owner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_pets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_photo_camera_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_photo_library_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_play_circle_outline_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_preview_radio_off.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_preview_radio_on.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_profile_icon_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_profile_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_ram.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_real_estate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_right_arrow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rotate_left_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rotate_right_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search_edt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search_with_line.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sell.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_services.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_share.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_splash_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sponsored.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_squrefeet_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_storage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_time.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_title_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_toggle_off.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_toggle_on.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_toolbar_back.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_verified.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_visibility.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_warning.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/my_ads_btn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/my_ads_status.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/my_rect.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pink_out_line.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rectangle_button_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_edittext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/search_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_radio_btn_text.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/toggle_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/toggle_widget_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/arial.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/helvetica.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/poppins_bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/poppins_light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/poppins_regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/poppins_semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/aaaaaaa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_all_categories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_all_categories_grid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_basic.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_browse_category_displayer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_filter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_item_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login_with_phone.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_matisse.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_media_preview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_ads_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_otp_verification.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_result.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_product_information.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/album_list_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/bikes_scooter_form.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/billing_information_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/browse_category_on_click_items.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/buy_pkg_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/car_rent_form.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/car_sell_form.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/change_pass_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/choose_language_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/choose_pkg_option_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/commercial_vehicle_form.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/congratulations_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/cust_error_msg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/edit_profile_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_image1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_image2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_media_selection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pkg_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_preview_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_progress_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/get_current_location.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/help_support_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/image_slider_layout_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_progress.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/job_form.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/login_with_email_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/media_grid_content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/media_grid_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/mobile_form_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/notification_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/package_details_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/photo_capture_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/profile_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/real_estate_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/rent_property_form.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_all_in_one.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_categories_items.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_dialog_label.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_filter_category.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_header_categories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_my_ads.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_package_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_pkg_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_sale_category_name.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_setting_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_show_category_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_view_cart_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/sell_property_form.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/sell_rent_office_form.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/set_profile_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/settings_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/show_all_ads_list_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/sub_categories_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/uri_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/user_rv_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/vehicle_form.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_cart_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_navigation_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs_crop_image_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/file_paths_public.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/androidTest/java/com/smarteist/autoimageslider/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/IndicatorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/PageIndicatorView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/AnimationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/controller/AnimationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/controller/ValueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/data/AnimationValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/data/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/data/type/ColorAnimationValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/data/type/DropAnimationValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/data/type/FillAnimationValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/data/type/ScaleAnimationValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/data/type/SlideAnimationValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/data/type/SwapAnimationValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/data/type/ThinWormAnimationValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/data/type/WormAnimationValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/type/BaseAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/type/ColorAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/type/DropAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/type/FillAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/type/IndicatorAnimationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/type/ScaleAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/type/ScaleDownAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/type/SlideAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/type/SwapAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/type/ThinWormAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/animation/type/WormAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/DrawManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/controller/AttributeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/controller/DrawController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/controller/MeasureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/data/Indicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/data/Orientation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/data/PositionSavedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/data/RtlMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/drawer/Drawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/drawer/type/BaseDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/drawer/type/BasicDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/drawer/type/ColorDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/drawer/type/DropDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/drawer/type/FillDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/drawer/type/ScaleDownDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/drawer/type/ScaleDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/drawer/type/SlideDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/drawer/type/SwapDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/drawer/type/ThinWormDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/draw/drawer/type/WormDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/utils/CoordinatesUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/utils/DensityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/utils/IdUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/InfiniteAdapter/InfinitePagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderAnimations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderPager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderViewAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/AntiClockSpinTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/Clock_SpinTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/CubeInDepthTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/CubeInRotationTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/CubeInScalingTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/CubeOutDepthTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/CubeOutRotationTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/CubeOutScalingTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/DepthTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/FadeTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/FanTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/FidgetSpinTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/GateTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/HingeTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/HorizontalFlipTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/PopTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/SimpleTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/SpinnerTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/TossTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/VerticalFlipTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/VerticalShutTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/java/com/smarteist/autoimageslider/Transformations/ZoomOutTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/res/values/attrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoimageslider/src/test/java/com/smarteist/autoimageslider/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\Dhruv\.android\avd\Pixel_2_API_30_5.avd]" />
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../MrGroupOlx\exportToHTML" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="Interface" />
+        <option value="resourceFile" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\AndroidProjects\MrGroupOlx\OlxKeyStore.jks" />
+    <option name="KEY_ALIAS" value="developer_com_mr_olx" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="24x7LhrHlvGIM3hRtl4Gb9rXR2R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="MrGroupOlx.app" />
+    <property name="DEBUGGABLE_DEVICE" value="Pixel_3a_API_30 [emulator-5554]" />
+    <property name="DEBUGGABLE_PROCESS" value="developer.com.mr.olx" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="SerialNumber@ONWCZS6PT8FUGUEA" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2022-05-12T12:04:47.085853500Z" />
+    <property name="ExportApk.ApkPath" value="D:\AndroidProjects\MrGroupOlx\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="ScreenshotViewer.SavePath" value="$USER_HOME$/Desktop" />
+    <property name="ToolWindowLogcat.ShowToolbar" value="false" />
+    <property name="android-custom-viewC:/Users/apple/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="android-custom-viewC:/Users/apple/.gradle/caches/modules-2/files-2.1/com.github.smarteist/autoimageslider/1.4.0-appcompat/8f7a784a7d1a8ec2f892969e7fdf11bcf01fdd50/autoimageslider-1.4.0-appcompat-sources.jar!/com/smarteist/autoimageslider/SliderView.java_SELECTED" value="SliderView" />
+    <property name="android-custom-viewC:/Users/apple/AppData/Local/Android/Sdk/sources/android-31/android/widget/AdapterView.java_SELECTED" value="AdapterView" />
+    <property name="android-custom-viewD:/AndroidProjects/MrGroupOlx/app/src/main/java/developer/com/mr/olx/cropClass/CropImageView.java_SELECTED" value="CropImageView" />
+    <property name="android-custom-viewD:/AndroidProjects/MrGroupOlx/app/src/main/java/developer/com/mr/olx/cropClass/Request/CropImageView.java_SELECTED" value="CropImageView" />
+    <property name="android-custom-viewD:/AndroidProjects/MrGroupOlx/app/src/main/java/developer/com/mr/olx/global/VerticalViewPager.java_SELECTED" value="VerticalViewPager" />
+    <property name="android-custom-viewD:/AndroidProjects/MrGroupOlx/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/widget/CheckRadioView.java_SELECTED" value="CheckRadioView" />
+    <property name="android-custom-viewD:/AndroidProjects/MrGroupOlx/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/widget/CheckView.java_SELECTED" value="CheckView" />
+    <property name="android-custom-viewD:/AndroidProjects/MrGroupOlx/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/widget/MediaGrid.java_SELECTED" value="MediaGrid" />
+    <property name="android-custom-viewD:/AndroidProjects/MrGroupOlx/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/widget/PreviewViewPager.java_SELECTED" value="PreviewViewPager" />
+    <property name="android-custom-viewD:/AndroidProjects/MrGroupOlx/app/src/main/java/developer/com/mr/olx/matisse/internal/ui/widget/SquareFrameLayout.java_SELECTED" value="SquareFrameLayout" />
+    <property name="android-custom-viewD:/AndroidProjects/MrGroupOlx/app/src/main/java/developer/com/mr/olx/view/SliderView.java_SELECTED" value="SliderView" />
+    <property name="android-custom-viewD:/AndroidProjects/MrGroupOlx/app/src/main/java/developer/com/mr/olx/widgets/SquareImageView.java_SELECTED" value="SquareImageView" />
+    <property name="android-custom-viewD:/AndroidProjects/MrGroupOlx/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderView.java_SELECTED" value="SliderView" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/values" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="developer.com.mr.olx.adapter" />
+      <recent name="developer.com.mr.olx.ApiInterface" />
+      <recent name="developer.com.mr.olx.clsApiClasses" />
+      <recent name="developer.com.mr.olx.fragments" />
+      <recent name="developer.com.mr.olx.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AndroidProjects\MrGroupOlx\app\src\main\res\drawable" />
+      <recent name="D:\AndroidProjects\MrGroupOlx\app\src\main\res\layout" />
+      <recent name="D:\AndroidProjects\MrGroupOlx\app\src\main\res\values" />
+      <recent name="D:\AndroidProjects\MrGroupOlx\app\src\main\res\drawable-hdpi" />
+      <recent name="D:\AndroidProjects\MrGroupOlx\app\src\main\java\developer\com\mr\olx\cropClass" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="MrGroupOlx.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8b19a24-16d0-47eb-98b7-6e6a772fd8ca" name="Default Changelist" comment="" />
+      <created>1644560330096</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644560330096</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="254" key="#Notifications" timestamp="1655551618543">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="552" y="254" key="#Notifications/0.0.1600.860@0.0.1600.860" timestamp="1655551618543" />
+    <state x="317" y="184" key="#PSD" timestamp="1646986089452">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="317" y="184" key="#PSD/0.0.1600.900@0.0.1600.900" timestamp="1646986089452" />
+    <state x="726" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1652427221980">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="605" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1600.900@0.0.1600.900" timestamp="1647494281524" />
+    <state x="726" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1652427221980" />
+    <state x="697" y="409" width="525" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1652426950150">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="697" y="409" width="525" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1652426950150" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1650694733232">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1650694733232" />
+    <state x="636" y="222" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1652699211671">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="636" y="222" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1652699211671" />
+    <state x="636" y="222" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1648016501035">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="636" y="222" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1648016501035" />
+    <state x="874" y="293" width="603" height="494" key="#xdebugger.XInspectDialog" timestamp="1650957981841">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="874" y="293" width="603" height="494" key="#xdebugger.XInspectDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1650957981841" />
+    <state x="1062" y="172" key="#xdebugger.evaluate" timestamp="1651565778841">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1062" y="172" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1651565778841" />
+    <state x="110" y="115" width="1700" height="850" key="AVDManager" timestamp="1652689632880">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="92" y="96" width="1416" height="708" key="AVDManager/0.0.1600.900@0.0.1600.900" timestamp="1647665421728" />
+    <state x="110" y="115" width="1700" height="850" key="AVDManager/0.0.1920.1080@0.0.1920.1080" timestamp="1652689632880" />
+    <state x="456" y="233" key="AndroidCreateResourceFileDialog" timestamp="1652702884364">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="380" y="194" key="AndroidCreateResourceFileDialog/0.0.1600.900@0.0.1600.900" timestamp="1647668048784" />
+    <state x="456" y="233" key="AndroidCreateResourceFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1652702884364" />
+    <state x="740" y="254" key="AndroidCreateXmlResourceDialog" timestamp="1651823096168">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="254" key="AndroidCreateXmlResourceDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1651823096168" />
+    <state x="710" y="235" key="AndroidProcessChooserDialog" timestamp="1652437019862">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="592" y="196" key="AndroidProcessChooserDialog/0.0.1600.900@0.0.1600.900" timestamp="1647679959688" />
+    <state x="710" y="235" key="AndroidProcessChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1652437019862" />
+    <state width="421" height="466" key="DebuggerActiveHint" timestamp="1650882456577">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="421" height="466" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1650882456577" />
+    <state x="580" y="185" width="440" height="513" key="FileChooserDialogImpl" timestamp="1655551420726">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" width="440" height="513" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1655551420726" />
+    <state x="580" y="194" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1647838821508" />
+    <state x="822" y="403" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1652702630911" />
+    <state x="672" y="328" key="Github.ShareDialog" timestamp="1655551815640">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="672" y="328" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1655551815640" />
+    <state width="1877" height="558" key="GridCell.Tab.0.bottom" timestamp="1652695296629">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1557" height="469" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1647680341420" />
+    <state width="1877" height="558" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1652695296629" />
+    <state width="1877" height="558" key="GridCell.Tab.0.center" timestamp="1652695296629">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1557" height="469" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1647680341420" />
+    <state width="1877" height="558" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1652695296629" />
+    <state width="1877" height="558" key="GridCell.Tab.0.left" timestamp="1652695296629">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1557" height="469" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1647680341420" />
+    <state width="1877" height="558" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1652695296629" />
+    <state width="1877" height="558" key="GridCell.Tab.0.right" timestamp="1652695296629">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1557" height="469" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1647680341420" />
+    <state width="1877" height="558" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1652695296629" />
+    <state width="1877" height="480" key="GridCell.Tab.1.bottom" timestamp="1652437176287">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1557" height="235" key="GridCell.Tab.1.bottom/0.0.1600.900@0.0.1600.900" timestamp="1647680274796" />
+    <state width="1877" height="480" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1652437176287" />
+    <state width="1877" height="480" key="GridCell.Tab.1.center" timestamp="1652437176287">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1557" height="235" key="GridCell.Tab.1.center/0.0.1600.900@0.0.1600.900" timestamp="1647680274796" />
+    <state width="1877" height="480" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1652437176287" />
+    <state width="1877" height="480" key="GridCell.Tab.1.left" timestamp="1652437176287">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1557" height="235" key="GridCell.Tab.1.left/0.0.1600.900@0.0.1600.900" timestamp="1647680274796" />
+    <state width="1877" height="480" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1652437176287" />
+    <state width="1877" height="480" key="GridCell.Tab.1.right" timestamp="1652437176287">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1557" height="235" key="GridCell.Tab.1.right/0.0.1600.900@0.0.1600.900" timestamp="1647680274796" />
+    <state width="1877" height="480" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1652437176287" />
+    <state x="301" y="75" key="SettingsEditor" timestamp="1655550285395">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1655550285395" />
+    <state x="301" y="78" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1646982827593" />
+    <state x="361" y="94" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1652425503737" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1653411370376">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1653411370376" />
+    <state width="968" height="548" key="XDebugger.FullValuePopup" timestamp="1650882813750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="968" height="548" key="XDebugger.FullValuePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1650882813750" />
+    <state x="739" y="261" key="chooseDestDirectoryDialog" timestamp="1651666442391">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="739" y="261" key="chooseDestDirectoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1651666442391" />
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1655551618903">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1655551618903" />
+    <state x="486" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1652692575545">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="405" y="42" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.900@0.0.1600.900" timestamp="1647515452005" />
+    <state x="486" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1652692575545" />
+    <state x="617" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1655550134652">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="617" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1655550134652" />
+    <state x="507" y="163" width="638" height="592" key="find.popup" timestamp="1655218506877">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="507" y="163" width="638" height="592" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1655218506877" />
+    <state x="507" y="171" width="638" height="620" key="find.popup/0.0.1600.900@0.0.1600.900" timestamp="1647672448910" />
+    <state x="608" y="206" width="766" height="744" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1652702844631" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1648535143425">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1648535143425" />
+    <state x="547" y="245" width="672" height="677" key="run.anything.popup" timestamp="1652341798886">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="456" y="204" key="run.anything.popup/0.0.1600.900@0.0.1600.900" timestamp="1647515961139" />
+    <state x="547" y="245" width="672" height="677" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1652341798886" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1655549225689">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1655549225689" />
+    <state x="463" y="188" width="672" height="710" key="search.everywhere.popup/0.0.1600.900@0.0.1600.900" timestamp="1647672716023" />
+    <state x="556" y="226" width="807" height="852" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1652703018757" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/global/LocationLiveData.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/EditProfileActivity.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/EditProfileActivity.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/EditProfileActivity.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/EditProfileActivity.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/EditProfileActivity.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/EditProfileActivity.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/EditProfileActivity.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/EditProfileActivity.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/AllProductForm.java</url>
+          <line>506</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/MobileFormActivity.java</url>
+          <line>513</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/MobileFormActivity.java</url>
+          <line>519</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/MobileFormActivity.java</url>
+          <line>525</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/MobileFormActivity.java</url>
+          <line>531</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/MobileFormActivity.java</url>
+          <line>537</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/developer/com/mr/olx/activity/AllProductForm.java</url>
+          <line>343</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

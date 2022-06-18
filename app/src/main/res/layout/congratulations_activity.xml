@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_congratulation" />
+
+        <LinearLayout
+            android:id="@+id/ll_boost_product"
+            android:layout_width="@dimen/_265sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="@dimen/_70sdp"
+            android:gravity="bottom"
+            android:orientation="vertical" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_go_to_my_ads"
+            android:layout_width="@dimen/_265sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="@dimen/_36sdp"
+            android:gravity="bottom"
+            android:orientation="vertical" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

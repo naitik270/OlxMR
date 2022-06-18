@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_gravity="center"
+        android:background="@color/og_clr"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/_6sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_back_icon" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Add Product Information"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_5sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Add Title *" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:orientation="vertical">
+
+
+                    <EditText
+                        android:id="@+id/edt_title"
+                        style="@style/EditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:hint="Hello Setting" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="9"
+                            android:fontFamily="@font/helvetica"
+                            android:text="Mention Features of your product (e.g. brand, model,color) "
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_6sdp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="end"
+                            android:text="0/60"
+                            android:textColor="@color/form_view_clr"
+                            android:textSize="@dimen/_6sdp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_5sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Brand *" />
+
+                <TextView
+                    android:id="@+id/txt_brand_name"
+                    style="@style/EditTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="7"
+                    android:drawableEnd="@drawable/ic_down_arrow"
+                    android:drawableTint="@color/og_clr"
+                    android:gravity="center_vertical"
+                    android:hint="Select Brand" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_5sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Model name *" />
+
+                <EditText
+                    android:id="@+id/edt_model_name"
+                    style="@style/EditTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="7"
+                    android:hint="Apple I-Phone xs" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/TextViewStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RAM *" />
+
+                    <EditText
+                        android:id="@+id/edt_ram"
+                        style="@style/SingleLineEditTextStyle"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_28sdp"
+                        android:gravity="center"
+                        android:hint="8 GB" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/TextViewStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ROM *" />
+
+                    <EditText
+                        android:id="@+id/edt_rom"
+                        style="@style/SingleLineEditTextStyle"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_28sdp"
+                        android:gravity="center"
+                        android:hint="128 GB" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/TextViewStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Colour *" />
+
+                    <EditText
+                        android:id="@+id/edt_clr"
+                        style="@style/SingleLineEditTextStyle"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_28sdp"
+                        android:gravity="center"
+                        android:hint="Black" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_5sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Add Price *" />
+
+                <EditText
+                    android:id="@+id/edt_price"
+                    style="@style/EditTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="7"
+                    android:hint="15000" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_add_image"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_add_pictures" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/listPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_margin="@dimen/_5sdp"
+                app:cardBackgroundColor="@color/icon_tint_trans"
+                app:cardCornerRadius="@dimen/_6sdp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/uri_item" />
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Front Camera" />
+
+                <EditText
+                    android:id="@+id/edt_front_camera"
+                    style="@style/EditTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="7"
+                    android:hint="5MP" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Rear Camera" />
+
+
+                <EditText
+                    android:id="@+id/edt_rare_camera"
+                    style="@style/EditTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="7"
+                    android:hint="13MP + 2MP + 10MP" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Battery" />
+
+                <EditText
+                    android:id="@+id/edt_battery"
+                    style="@style/EditTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="7"
+                    android:hint="5000 mAH" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextViewStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Bill"
+                        tools:ignore="NestedWeights" />
+
+
+                    <RadioGroup
+                        android:id="@+id/bill_rg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_20sdp"
+                        android:background="@drawable/pink_out_line"
+                        android:checkedButton="@+id/rb_bill_no"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_bill_yes"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/toggle_widget_background"
+                            android:button="@null"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:text="Yes"
+                            android:textColor="@drawable/selector_radio_btn_text"
+                            android:textSize="@dimen/_9sdp" />
+
+                        <RadioButton
+                            android:id="@+id/rb_bill_no"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:background="@drawable/toggle_widget_background"
+                            android:button="@null"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:text="No"
+                            android:textColor="@drawable/selector_radio_btn_text"
+                            android:textSize="@dimen/_9sdp" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_box"
+                        style="@style/TextViewStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Box" />
+
+                    <RadioGroup
+                        android:id="@+id/rg_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_20sdp"
+                        android:background="@drawable/pink_out_line"
+                        android:checkedButton="@+id/rb_box_no"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_box_yes"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/toggle_widget_background"
+                            android:button="@null"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:text="Yes"
+                            android:textColor="@drawable/selector_radio_btn_text"
+                            android:textSize="@dimen/_9sdp" />
+
+                        <RadioButton
+                            android:id="@+id/rb_box_no"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:background="@drawable/toggle_widget_background"
+                            android:button="@null"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:text="No"
+                            android:textColor="@drawable/selector_radio_btn_text"
+                            android:textSize="@dimen/_9sdp" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextViewStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Charger"
+                        tools:ignore="NestedWeights" />
+
+                    <RadioGroup
+                        android:id="@+id/rg_charger"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_20sdp"
+                        android:background="@drawable/pink_out_line"
+                        android:checkedButton="@+id/rb_charger_no"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_charger_yes"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:background="@drawable/toggle_widget_background"
+                            android:button="@null"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:text="Yes"
+                            android:textColor="@drawable/selector_radio_btn_text"
+                            android:textSize="@dimen/_9sdp" />
+
+                        <RadioButton
+                            android:id="@+id/rb_charger_no"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:background="@drawable/toggle_widget_background"
+                            android:button="@null"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:text="No"
+                            android:textColor="@drawable/selector_radio_btn_text"
+                            android:textSize="@dimen/_9sdp" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        style="@style/TextViewStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Headset"
+                        tools:ignore="NestedWeights" />
+
+                    <RadioGroup
+                        android:id="@+id/rg_headset"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_20sdp"
+                        android:background="@drawable/pink_out_line"
+                        android:checkedButton="@+id/rb_headset_no"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_headset_yes"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:background="@drawable/toggle_widget_background"
+                            android:button="@null"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:text="Yes"
+                            android:textColor="@drawable/selector_radio_btn_text"
+                            android:textSize="@dimen/_9sdp" />
+
+                        <RadioButton
+                            android:id="@+id/rb_headset_no"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:background="@drawable/toggle_widget_background"
+                            android:button="@null"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:text="No"
+                            android:textColor="@drawable/selector_radio_btn_text"
+                            android:textSize="@dimen/_9sdp" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextViewStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Warranty"
+                        tools:ignore="NestedWeights" />
+
+                    <RadioGroup
+                        android:id="@+id/rg_warranty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_20sdp"
+                        android:background="@drawable/pink_out_line"
+                        android:checkedButton="@+id/rb_warranty_no"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_warranty_yes"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:background="@drawable/toggle_widget_background"
+                            android:button="@null"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:text="Yes"
+                            android:textColor="@drawable/selector_radio_btn_text"
+                            android:textSize="@dimen/_9sdp" />
+
+                        <RadioButton
+                            android:id="@+id/rb_warranty_no"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:background="@drawable/toggle_widget_background"
+                            android:button="@null"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:text="No"
+                            android:textColor="@drawable/selector_radio_btn_text"
+                            android:textSize="@dimen/_9sdp" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        style="@style/TextViewStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Insurance"
+                        tools:ignore="NestedWeights" />
+
+                    <RadioGroup
+                        android:id="@+id/rg_insurance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_20sdp"
+                        android:background="@drawable/pink_out_line"
+                        android:checkedButton="@+id/rb_insurance_no"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_insurance_yes"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:background="@drawable/toggle_widget_background"
+                            android:button="@null"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:text="Yes"
+                            android:textColor="@drawable/selector_radio_btn_text"
+                            android:textSize="@dimen/_9sdp" />
+
+                        <RadioButton
+                            android:id="@+id/rb_insurance_no"
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:background="@drawable/toggle_widget_background"
+                            android:button="@null"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:text="No"
+                            android:textColor="@drawable/selector_radio_btn_text"
+                            android:textSize="@dimen/_9sdp" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_insurance_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Insurance Type" />
+
+                <EditText
+                    android:id="@+id/edt_insurance_name"
+                    style="@style/EditTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="7"
+                    android:hint="Third Party (Valid till 02-Mar-2023)" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_5sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Show your Mobile no."
+                    tools:ignore="NestedWeights" />
+
+                <RadioGroup
+                    android:id="@+id/rg_mobile_no_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20sdp"
+                    android:background="@drawable/pink_out_line"
+                    android:checkedButton="@+id/rb_mobile_no"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_mobile_yes"
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:background="@drawable/toggle_widget_background"
+                        android:button="@null"
+                        android:fontFamily="@font/helvetica"
+                        android:gravity="center"
+                        android:text="Yes"
+                        android:textColor="@drawable/selector_radio_btn_text"
+                        android:textSize="@dimen/_9sdp" />
+
+                    <RadioButton
+                        android:id="@+id/rb_mobile_no"
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:background="@drawable/toggle_widget_background"
+                        android:button="@null"
+                        android:fontFamily="@font/helvetica"
+                        android:gravity="center"
+                        android:text="No"
+                        android:textColor="@drawable/selector_radio_btn_text"
+                        android:textSize="@dimen/_9sdp" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_5sdp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Add a description" />
+
+
+                <EditText
+                    android:id="@+id/edt_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cust_edt_text"
+                    android:gravity="top|start"
+                    android:hint="Enter Your description here..."
+                    android:inputType="textMultiLine"
+                    android:lines="6"
+                    android:maxLines="8"
+                    android:minLines="6"
+                    android:padding="@dimen/_5sdp"
+                    android:scrollbars="vertical"
+                    android:textColor="@color/txt_clr"
+                    android:textSize="@dimen/_10sdp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:fontFamily="@font/helvetica"
+                        android:text="Include condition, years of use and reason for selling"
+                        android:textColor="@color/form_view_clr"
+                        android:textSize="@dimen/_6sdp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/helvetica"
+                        android:gravity="end"
+                        android:text="0/5000"
+                        android:textColor="@color/form_view_clr"
+                        android:textSize="@dimen/_6sdp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextViewStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Location" />
+
+                    <EditText
+                        android:id="@+id/edt_location"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_gravity="end"
+                        android:layout_weight="7"
+                        android:background="@drawable/cust_edt_text"
+                        android:drawableStart="@drawable/ic_location"
+                        android:drawableLeft="@drawable/ic_location"
+                        android:drawablePadding="@dimen/_5sdp"
+                        android:drawableTint="@color/btn_clr_chat"
+                        android:fontFamily="@font/helvetica"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:text="Gujarat"
+                        android:textColor="@color/txt_clr"
+                        android:textSize="@dimen/_10sdp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_post"
+                android:layout_width="@dimen/_85sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@drawable/cust_post_btn"
+                android:fontFamily="@font/helvetica"
+                android:gravity="center"
+                android:text="POST AD"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
+
